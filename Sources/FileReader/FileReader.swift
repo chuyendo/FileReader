@@ -1,6 +1,6 @@
 import Foundation
 class FileReader {
- func read(fileName: String) -> String? {
+ static func read(fileName: String) -> String? {
    let fileManager = FileManager.default
    let currentDirectoryURL = URL(fileURLWithPath: 
                           fileManager.currentDirectoryPath)
